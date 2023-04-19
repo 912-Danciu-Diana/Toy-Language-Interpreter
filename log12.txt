@@ -1,0 +1,1852 @@
+Id: 1
+ExeStack:
+(bool a;(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+bool a
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+bool a
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+int b
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+int b
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+a = true
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+a = true
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+b=(a)? 100: 200
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+b=(a)? 100: 200
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(IF(a) THEN(b = 100)ELSE(b = 200))
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(IF(a) THEN(b = 100)ELSE(b = 200))
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+b = 100
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+b = 100
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+print(b)
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+print(b)
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+b=(false)? 100: 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+b=(false)? 100: 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(IF(false) THEN(b = 100)ELSE(b = 200))
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+(IF(false) THEN(b = 100)ELSE(b = 200))
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+b = 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+b = 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+print(b)
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+print(b)
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 1
+ExeStack:
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+200
+Heap:
+FileTable:
+
+Latch table:
+{}
+
+Id: 6
+ExeStack:
+(bool a;(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+bool a
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+bool a
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+int b
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+int b
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+a = true
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+a = true
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+b=(a)? 100: 200
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+b=(a)? 100: 200
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(IF(a) THEN(b = 100)ELSE(b = 200))
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(IF(a) THEN(b = 100)ELSE(b = 200))
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+b = 100
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+b = 100
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+print(b)
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+print(b)
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+b=(false)? 100: 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+b=(false)? 100: 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(IF(false) THEN(b = 100)ELSE(b = 200))
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+(IF(false) THEN(b = 100)ELSE(b = 200))
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+b = 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+b = 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+print(b)
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+print(b)
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 6
+ExeStack:
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+200
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(bool a;(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+bool a
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+bool a
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+int b
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+int b
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+a = true
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+a = true
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+b=(a)? 100: 200
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+b=(a)? 100: 200
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(IF(a) THEN(b = 100)ELSE(b = 200))
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(IF(a) THEN(b = 100)ELSE(b = 200))
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+b = 100
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+b = 100
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+print(b)
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+print(b)
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+b=(false)? 100: 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+b=(false)? 100: 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(IF(false) THEN(b = 100)ELSE(b = 200))
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+(IF(false) THEN(b = 100)ELSE(b = 200))
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+b = 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+b = 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+print(b)
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+print(b)
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 5
+ExeStack:
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+200
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(bool a;(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+bool a
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+bool a
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(int b;(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+int b
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+int b
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(a = true;(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b)))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+a = true
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+a = true
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> false
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(b=(a)? 100: 200;(print(b);(b=(false)? 100: 200;print(b))))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+b=(a)? 100: 200
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+b=(a)? 100: 200
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(IF(a) THEN(b = 100)ELSE(b = 200))
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(IF(a) THEN(b = 100)ELSE(b = 200))
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+b = 100
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+b = 100
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 0
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(print(b);(b=(false)? 100: 200;print(b)))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+print(b)
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+print(b)
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(b=(false)? 100: 200;print(b))
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+b=(false)? 100: 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+b=(false)? 100: 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(IF(false) THEN(b = 100)ELSE(b = 200))
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+(IF(false) THEN(b = 100)ELSE(b = 200))
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+b = 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+b = 200
+print(b)
+SymTable:
+a -> true
+b -> 100
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+print(b)
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+print(b)
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+Heap:
+FileTable:
+
+Latch table:
+
+
+Id: 1
+ExeStack:
+SymTable:
+a -> true
+b -> 200
+Out:
+100
+200
+Heap:
+FileTable:
+
+Latch table:
+
+
